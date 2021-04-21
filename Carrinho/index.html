@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Meu Carrinho</title>
+    <meta charset='utf-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <title>Page Title</title>
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+    <link rel='stylesheet' type='text/css' media='screen' href='bootstrap.min.css' >
+    <link rel='stylesheet' type='text/css' media='screen' href='estilo.css' >
+    
+</head>
+<body>
+    <div class="container"> 
+
+        <div class="row d-flex justify-content-center">
+            <div class= "col-6" >  <form id="todoForm">
+                <div class="input-group mb-3">
+                    <input type="text" required placeholder="Adicione um Produto " id="produto" class="form-control">
+                    <input type="number" required placeholder="Quantidade " id="quantidade" class="form-control">
+                     
+                    <button class="btn btn-outline-secondary" type="submit">Salvar</button>
+                </div>
+            </form>
+                
+                
+            </div> 
+            <div class= "col-6" > 
+                <table class="table border">
+                <thead>
+                  <tr>
+                    <th scope="col">Id</th>
+                    <th scope="col">Produto</th>
+                    <th scope="col">Quantidade</th>
+                    <th scope="col">Botão LOL</th>
+                  </tr>
+                </thead>
+
+                <tbody id="tableBody">
+
+                </tbody>
+              </table>
+       
+            </div> 
+        </div>
+    </div>
+    <script src='Main.js'></script>
+</body>
+</html>
